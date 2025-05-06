@@ -16,18 +16,55 @@ Motifly is more than just a to-do list—it's your personal motivation and produ
 Motifly isn’t just about checking off tasks—it’s about building habits that help you grow.  
 **Start small, stay consistent, and let motivation lift you higher every day!**
 
-## 📱 Play Store Availability
+## Play Store Availability
 
 Motifly will be available on the **Google Play Store soon**!  
 Currently, the app is in **closed alpha testing** to ensure stability and a great user experience.
 
 Stay tuned for the official release and be among the first to experience Motifly!
 
-## 🌐 Official Website
+## Technologies Used
 
-👉 [motifly.software](https://motifly.software)
+Motifly is built using modern Android development best practices and tools:
 
-## 📃 Legal & Privacy
+### Architecture
+- **Kotlin**
+- **Clean MVVM**
+- **Jetpack Compose**
+- **Hilt** for Dependency Injection
+- **Room** for local data persistence
+- **WorkManager** for background task scheduling
+
+### Jetpack & AndroidX
+- Lifecycle, Activity, Navigation, Material3, Core KTX
+- Compose BOM, Tooling, Preview, UI, Graphics
+
+### Firebase
+- Firebase Auth
+- Firebase Firestore
+- Firebase Storage
+- Firebase Analytics
+- Firebase App Check (Play Integrity)
+
+### UI & UX
+- **Jetpack Compose**
+- **Lottie** for animations
+- **Coil** for image loading
+- **SwipeLayout** for interactive gestures
+- **Figma** for user interface design
+
+### Testing
+- JUnit
+- Espresso
+- Mockito (core, Kotlin, inline)
+- Hilt Testing Support
+
+
+## Official Website
+
+- [motifly.software](https://motifly.software)
+
+## Legal & Privacy
 
 - [Privacy Policy](https://motifly.software/privacy-policy)  
 - [Terms and Conditions](https://motifly.software/terms-and-conditions)  
